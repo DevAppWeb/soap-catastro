@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height:100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    line-height: 1;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.page {
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 1;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    flex: none;
+}
+
+
+.capaform {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    flex-flow: column nowrap;
+    border: 5px solid orange}
+
+.form-font {font-size: 25px}
+
+.input-section {
+    display:flex;
+    justify-content: space-between;
+    flex: 1;
+    flex-flow: row wrap;
+}
+
+textarea{   
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-size: 20px;
+    flex-grow: 1}
+
+.submit-section {
+    display:flex;
+    flex: 1;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.submit {
+    height: 30px ;
+    background: orange
+}
+select {font-size: 20px}
+
+.form-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+label {
+    display: flex;
+    flex: none;
+    max-width: 300px;
+    margin-bottom: 5px;
+}
+
+.info {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+
